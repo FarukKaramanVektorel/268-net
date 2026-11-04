@@ -18,6 +18,7 @@ namespace _04_11_2026
 
         }
 
+      
 
 
         private void Round(ref Fighter a,ref Fighter b)
@@ -29,36 +30,50 @@ namespace _04_11_2026
                 double attackB = b.Attack();
                 bool defanseA = a.IsDefance();
                 bool defanseB = b.IsDefance();
-                Console.WriteLine($"{a.Info()} {attackA:F2} ile saldırıyor");
+                Console.WriteLine($"{a.Name} {attackA:F2} ile saldırıyor");
                 if (!b.IsDefance())
                 {
                     b.Healt -= attackA;
-                    Console.WriteLine($"{b.Info()} {attackA:F2} hasarı aldı");
+                    Console.WriteLine($"{b.Name} {attackA:F2} hasarı aldı");
                 }
                 else
                 {
-                    Console.WriteLine(b.Info()+" atağı savuşturdu");
+                    Console.WriteLine(b.Name+" atağı savuşturdu");
                 }
                 if (IsWinner(ref a,ref b)) break;
                 Console.WriteLine($"{b.Info()} {attackB:F2} ile saldırıyor");
                 if (!a.IsDefance())
                 {
                     a.Healt -= attackB;
-                    Console.WriteLine($"{a.Info()} {attackB:F2} hasarı aldı...");
+                    Console.WriteLine($"{a.Name} {attackB:F2} hasarı aldı...");
                 }
                 else
                 {
-                    Console.WriteLine(a.Info() + " atağı savuşturdu");
+                    Console.WriteLine(a.Name + " atağı savuşturdu");
                 }
                 if (IsWinner(ref a, ref b)) break;
                
                 round++;
+                Console.WriteLine("Dövüşçü Durumları");
+                Print(a);
+                Print(b);
                 Thread.Sleep(1000);
             }
            
             Speeker(ref a, ref b);
         }
+        private void Print(Fighter f)
+        {
+            if (f.Healt > 70)           
+                Console.BackgroundColor = ConsoleColor.Green;
+            else if(f.Healt>40) 
+                Console.BackgroundColor = ConsoleColor.Blue;
+            else
+                Console.BackgroundColor = ConsoleColor.Magenta;
 
+            Console.WriteLine(f.Info());
+            Console.ResetColor();
+        }
         private void Speeker(ref Fighter a,ref Fighter b)
         {
             Console.WriteLine("---------MAÇ BİTTİ---------");
