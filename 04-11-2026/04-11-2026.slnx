@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="04-11-2026/04-11-2026.csproj" />
+  <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
 </Solution>

@@ -6,12 +6,13 @@ namespace _04_11_2026
 {
     internal class Fighter
     {
-        public string Name { get; set; }
-        public double Weight { get; set; }
-        public double Height { get; set; }
+        public string Name { get;  set; }
+        public double Weight { get;  set; }
+        public double Height { get;  set; }
         public double Healt { get; set; }
         private Random rnd = new Random();
 
+        public Fighter() { }
         public Fighter(string name, double weight, double height, double healt)
         {
             Name = name;
