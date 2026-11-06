@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="04-11-2026/04-11-2026.csproj" />
+  <Project Path="06-11-2026/06-11-2026.csproj" Id="93928284-0613-4b92-9837-d93eae1fc1f2" />
   <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
+  <Project Path="PersonelSistemi/PersonelSistemi.csproj" Id="70f2c484-5fb5-42b9-b23f-971fe6733f17" />
 </Solution>
