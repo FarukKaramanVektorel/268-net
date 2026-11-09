@@ -2,5 +2,7 @@
   <Project Path="04-11-2026/04-11-2026.csproj" />
   <Project Path="06-11-2026/06-11-2026.csproj" Id="93928284-0613-4b92-9837-d93eae1fc1f2" />
   <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
+  <Project Path="FotoSipsak/FotoSipsak.csproj" Id="47bdebe7-2f93-4570-a40f-f132f1ab428b" />
   <Project Path="PersonelSistemi/PersonelSistemi.csproj" Id="70f2c484-5fb5-42b9-b23f-971fe6733f17" />
+  <Project Path="WarCharacter/WarCharacter.csproj" Id="c36073ca-f48e-4ba3-9806-8f6a3e5fe834" />
 </Solution>
