@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="04-11-2026/04-11-2026.csproj" />
   <Project Path="06-11-2026/06-11-2026.csproj" Id="93928284-0613-4b92-9837-d93eae1fc1f2" />
+  <Project Path="BankSystem/BankSystem.csproj" Id="65450d94-6130-4853-a91b-340048d51612" />
   <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
   <Project Path="FotoSipsak/FotoSipsak.csproj" Id="47bdebe7-2f93-4570-a40f-f132f1ab428b" />
   <Project Path="PersonelSistemi/PersonelSistemi.csproj" Id="70f2c484-5fb5-42b9-b23f-971fe6733f17" />
