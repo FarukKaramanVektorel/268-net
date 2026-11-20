@@ -6,8 +6,8 @@ namespace OdemeSistemi
 {
     internal class Siparis
     {
-        public Yemek[] Yemek { get; set; }
-        public int Adet { get; set; }
+
+        public Yemek[] Yemek { get; set; }       
         public string  Adress { get; set; }
     }
 }
