@@ -5,6 +5,7 @@
   <Project Path="DatabaseManagement/DatabaseManagement.csproj" Id="b88197e7-3676-48f9-aa88-247786af4101" />
   <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
   <Project Path="FotoSipsak/FotoSipsak.csproj" Id="47bdebe7-2f93-4570-a40f-f132f1ab428b" />
+  <Project Path="HataYonetimi/HataYonetimi.csproj" Id="c1725c70-fb96-418a-9c6a-564f86b10c9a" />
   <Project Path="MyFamily/MyFamily.csproj" Id="380e753d-97ed-4f61-a402-f34a45b4c2ee" />
   <Project Path="OdemeSistemi/OdemeSistemi.csproj" Id="492aa2e3-31cb-4475-a371-fa11255afe29" />
   <Project Path="PersonelSistemi/PersonelSistemi.csproj" Id="70f2c484-5fb5-42b9-b23f-971fe6733f17" />
